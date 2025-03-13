@@ -1,1 +1,1 @@
-This is a test readme file
+Tässä harjoitellaan hyvän käytännön readme tiedoston tekemistä 
