@@ -1,1 +1,1 @@
-Tässä harjoitellaan hyvän käytännön readme tiedoston tekemistä 
+Yleiskuvaus projektista, mitä sillä tehdään ja miten sitä voi käyttää
