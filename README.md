@@ -1,3 +1,6 @@
 Yleiskuvaus projektista, mitä sillä tehdään ja miten sitä voi käyttää
 
-Ville Pakkanen = Vibbe00
+villert - ville raijas
+
+villert - ville raijas
+Vibbe00 - Ville Pakkanen
