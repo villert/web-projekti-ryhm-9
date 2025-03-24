@@ -1,0 +1,45 @@
+
+TIOBE-kuvaus
+
+TIOBE Index sisältää kuukausittain päivittyvän listauksen eri ohjelmointikielten käytön yleisyydestä ja suosiosta. Sivuston data perustuu päivittäiseen skannaukseen, joka kohdistuu yli miljardiin koodiriviin. Sivustoa kehittää ja ylläpitää vuonna 2000 perustettu TIOBE Software BV. Nimi TIOBE tulee sanoista The Importance Of Being Earnest.
+
+1. Python
+
+Python on ohjelmointikieli, jolle on tunnusomaista hyvä luettavuus, korkea abstraktiotaso ja kehittyneet kirjastot monilla eri sovellusalueilla. Python on niin kutsuttu tulkattu kieli, mikä tarkoittaa että sen suorituskyky on alhaisempi kuin käännetyn kielen. Tioben Tiobe Indexin mukaan Python on maailman suosituin ohjelmointikieli. Pythonilla ohjelmointi on tuottavuudeltaan korkeaa jopa Javaan verrattuna.
+
+Pythonin nousu vakavasti otettavaksi ohjelmointikieleksi käynnistyi Zope- ja Plone-tuotteiden myötä sekä suositun Blender-3D-mallinnusohjelman skriptauskielenä. Toinen tulkattu kieli nimeltä Perl oli suosittu Linux-käyttäjien parissa. Perl avasi tietä Pythonille demonstroimalla tulkatun kielen etuja. Python oli myös skriptikieli ja toimi Perlin korvikkeena. Monet Linux-käyttäjien skriptit alkoivat perustua Pythonille ja Perlin 6-versio ei ollut kovin suosittu. Python kamppaili myös jonkin aikaa Ruby-ohjelmointikielen kanssa, mutta ohitti sen suosiossa.
+
+2, C++
+        
+C++ on ohjelmointikieli, jonka Bjarne Stroustrup kehitti 1980-luvulla. Kieli on kehitetty C-kielestä lisäämällä siihen muun muassa olio-ohjelmointiin ja geneerisyyteen liittyviä ominaisuuksia. C++-kielen standardi ISO/IEC 14882:1998 vahvistettiin vuonna 1998, C++11 (ent. C++0x) vuonna 2011, C++14 (ISO/IEC 14882:2014) vuonna 2014, ja C++17 (ISO/IEC 14882:2017) vuonna 2017. Uusin standardiversio C++20 (ISO/IEC 14882:2020) on julkaistu vuonna 2020.
+
+C++ sisältää muun muassa luokat, virtuaalisen moniperintätuen, mallit (templates) ja poikkeukset. C++ perustuu C-kieleen siten, ettei kieltä ole suunniteltu uudelleen, vaan uusia ominaisuuksia on lisätty. Kieli on moniparadigmainen, mahdollistaen muun muassa proseduraalisen-, olio- ja geneerisen ohjelmoinnin. Kieli ei ole täysin funktionaalisen ohjelmoinnin kieli, mutta mahdollistaa monia vastaavia käyttötapoja.
+
+3. Java
+
+Java on Sun Microsystemsin kehittämä teknologiaperhe ja ohjelmistoalusta, johon kuuluu muun muassa laitteistoriippumaton korkean tason, luokkapohjainen, oliopohjainen ohjelmointikieli, joka on suunniteltu siten, että siinä on mahdollisimman vähän toteutusriippuvuutta, sekä ajoaikainen ympäristö virtuaalikoneineen ja luokkakirjastoineen.
+
+Java (ohjelmointikieli) on yleiskäyttöinen ohjelmointikieli, jonka avulla ohjelmoijat voivat kirjoittaa koodia, joka kääntäessä toimii kaikilla Javaa tukevilla alustoilla ilman tarvetta kääntää koodia uudelleen. Java-sovellukset on tyypillisesti käännetty tavukoodiin, joka voi toimia missä tahansa Java-virtuaalikoneessa (JVM) taustalla olevasta tietokoneen arkkitehtuurista riippumatta. Javan syntaksi on samanlainen kuin C:n ja C++:n, mutta siinä on vähemmän matalan tason toimintoja kuin kummallakaan. Java-ajonaika tarjoaa dynaamisia ominaisuuksia (kuten reflektointia ja ajonaikaisen koodin muokkausta), joita ei yleensä ole saatavilla perinteisillä käännetyillä kielillä.
+
+4. C 
+
+C on yleiskäyttöinen, imperatiivinen ja rakenteinen käännettävä tietokoneiden ohjelmointikieli, joka on levinnyt laajalle 1970-luvulta lähtien, jolloin Dennis Ritchie kehitti sen UNIX-käyttöjärjestelmää varten. Kielessä yhdistyvät koneenläheisyys ja korkean tason kielen ominaisuudet. C:n suosiota selittää kielen yksinkertaisuus, tehokkuus, joustavuus ja siirrettävyys. C:ssä itsessään ei ole paljoa varattuja sanoja, monet toiminnot tehdään funktiokirjastoilla. C++, Java, C# ja monet muut myöhemmät kielet perustuvat syntaksiltaan ja avainsanoiltaan C:hen.
+
+C perustuu Ken Thompsonin kehittämään B-kieleen, jonka juuret ovat BCPL-kielessä. Kielen kehitys alkoi nimellä NB (New B). Kieli kehitettiin Bell Labsissa vuonna 1972 PDP-11:lle Unix-käyttöjärjestelmää varten, joka muutettiin assemblystä C:lle.
+
+5. C#
+
+C# (lausutaan engl. see sharp) on Microsoftin .NET-alustalle kehitetty ohjelmointikieli. C# julkaistiin kesäkuussa vuonna 2000 ja kehitettiin yhdistämään C++:n tehokkuus ja Visual Basicin tuottavuus. C# on vahvasti tyypitetty, eli muuttujille tulee määritellä jokin tietotyyppi, kuten kokonaisluku, luokka tai merkkijono. Kielessä ja kääntäjässä on myös useita ohjelmointivirheitä vähentäviä toimintoja, esimerkiksi alustamattomien muuttujien käytöstä varoitetaan.
+
+C#:n kehittäjinä mainitaan Anders Hejlsberg, Scott Wiltamuth ja Peter Golde. Hejlsberg tuli Microsoft-yhtiön palvelukseen Borlandilta. Anders Hejlsberg oli ennen C#:a mukana Turbo Pascalin, Delphin ja J++:n kehitystyössä.
+
+6. JavaScript
+
+JavaScript on alun perin Netscapen kehittämä, pääasiassa verkkoympäristössä käytettävä ohjelmointikieli. JavaScript on dynaamisesti ja heikosti tyypitetty, tulkattava, oliopohjainen komentosarjakieli, jonka syntaksi perustuu löyhästi C-ohjelmointikieleen. Kielen semantiikka ja suunnittelu on saanut vaikutteita Self- ja Scheme-ohjelmointikielistä. Java on ollut merkittävä osa JavaScriptin kehitystä. JavaScript on saanut vaikutteita muun muassa sen syntaksista ja standardikirjastosta. Math- ja Date-oliot perustuvat Java 1.0:n luokkiin ja niitä voidaan hyödyntää myös JavaScriptissä. Kaikesta huolimatta JavaScript ja Java eroavat toisistaan niin paljon, että niitä ei pitäisi sekoittaa toistensa kesken, vaan kuuluisi kohdella täysin eri kokonaisuuksina.
+
+Web-kehitykseen käytetään usein JavaScriptiin perustuvia ohjelmistokehyksiä (esim. Svelte, AngularJS ja Next.js), käyttöliittymäkirjastoja (kuten React) sekä JavaScriptin laajennoksia ja JavaScriptiksi käännettäviä (engl. transpiler) kieliä kuten JSX ja TypeScript - ei niinkään natiivia JavaScriptiä suoraan. JavaScriptiä ei tule sekoittaa Java-kieleen; nimi on peräisin Netscapen ja Javan kehittäneen Sunin lisenssisopimuksesta ja pyrkimyksestä markkinoida JavaScriptistä Javan "apukieli". Kielen standardin virallinen nimi on ECMAScript.
+      
+7. Go
+8. SQL
+9. Visual Basic
+10. Delphi/Object Pascal
