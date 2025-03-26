@@ -1,33 +1,40 @@
 body {
     margin-left: 16px;
+    
 }
 
 header {
-    background-color: #f5f5f5;
+    background-color: #F3B3FF ;
     padding-top: 40px;
+    
 }
 
 nav {
-    background-color: #f5f5f5;
+    background-color: #F3B3FF ;
+
 }
 
 .nav-link {
     color: #000000;
-    font-size: 1.2em;
-    padding-left: 0 !important;
-    padding-right: 16px !important;
+    font-size: 1.2em !important;
+    color: black !important;
 
 }
 
 .nav-link:hover {
-
     text-decoration: underline;
 }
 
 
-
-
 footer {
-    background-color: #333;
-    color: #f5f5f5
+    background-color: #F3B3FF ;
+    color: black;
+    font-size: 1.2em !important
+}
+
+
+.container {
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 1.2em !important;
 }
