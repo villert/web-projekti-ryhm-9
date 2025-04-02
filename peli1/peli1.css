@@ -1,0 +1,31 @@
+.incorrect {
+    background-color: #ff4d4d; 
+    color: white; 
+    padding: 10px;
+    border-radius: 8px; 
+    transition: all 0.3s ease-in-out; 
+    font-weight: bold; 
+}
+
+.correct {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px;
+    border-radius: 8px; 
+    border: 2px solid #388E3C; 
+    transition: all 0.3s ease-in-out; 
+    font-weight: bold; 
+}
+.hidden{
+    display: none;
+}
+
+
+form {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
