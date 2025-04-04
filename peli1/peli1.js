@@ -1,7 +1,7 @@
 let questions = ['The capital of Finland is Helsinki', 'The Sun is a planet', 'Water boils at 100°C at sea level', 'Elephants are the largest land animals', 'The Great Wall of China is visible from space with the naked eye', 'A triangle has four sides', 'The Pacific Ocean is the largest ocean on Earth', 'Penguins can fly'];
 let answers = ['yes', 'no', 'yes','yes','no', 'no', 'yes', 'no' ];
 let index = 0;
-let points = 0;
+let points = localStorage.getItem('points') || 0;
 
 //Haetaan kysymyselementti ja asetetaan ensimmäinen kysymys
 let questionElement = document.querySelector('#question');
@@ -22,7 +22,7 @@ function answer(event){
 
     //Tarkistetaan onko käyttäjän antama vastaus oikea
     if(selection == answers[index]){
-        points++;
+        localStorage.setItem('game1Score', ++points);
         questionElement.classList.add('correct');
     }else{
         questionElement.classList.add('incorrect');
