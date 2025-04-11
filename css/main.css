@@ -55,3 +55,9 @@ body, html {
     overflow-x: hidden;
 }
 
+.info{
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 1.2em !important;
+}
+
