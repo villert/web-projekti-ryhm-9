@@ -39,21 +39,21 @@
         </header>
 
         <div class="container">
-            <p>Choose the correct word that best fits the blank. </p>
+            <h4>Choose the correct word that best fits the blank. </h4>
             <form id="questionform">
                 <p id="question"></p>
-                <select id="radio" name="radio">
-                    <option name="selection" id="select" value="select">select</option>
-                    <option name="selection" id="sets" value="sets">sets</option>
-                    <option name="selection" id="lakes" value="lakes">lakes</option>
-                    <option name="selection" id="clean" value="clean">clean</option>
-                    <option name="selection" id="clear" value="clear">clear</option>
-                    <option name="selection" id="wind" value="wind">wind</option>
-                    <option name="selection" id="dance" value="dance">dance</option>
-                    <option name="selection" id="reindeer" value="reindeer">reindeer</option>
-                    <option name="selection" id="winter" value="winter">winter</option>
-                    <option name="selection" id="islands" value="islands">islands</option>
-                    <option name="selection" id="forests" value="forests">forests</option>
+                <label for="radio">Choose the correct word:</label>
+                <select id="radio" name="selection">
+                    <option type="radio" name="selection" id="sets" value="sets">sets</option>
+                    <option type="radio" name="selection" id="lakes" value="lakes">lakes</option>
+                    <option type="radio" name="selection" id="fresh" value="fresh">fresh</option>
+                    <option type="radio" name="selection" id="clear" value="clear">clear</option>
+                    <option type="radio" name="selection" id="wind" value="wind">wind</option>
+                    <option type="radio" name="selection" id="dance" value="dance">dance</option>
+                    <option type="radio" name="selection" id="reindeers" value="reindeers">reindeers</option>
+                    <option type="radio" name="selection" id="winter" value="winter">winter</option>
+                    <option type="radio" name="selection" id="islands" value="islands">islands</option>
+                    <option type="radio" name="selection" id="forests" value="forests">forests</option>
                 </select></br></br>
                 <input type="submit" value="Answer" id="answer">
             </form>
@@ -73,7 +73,7 @@
         </div>
     </footer>
     
-
+    <script src="peli5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
