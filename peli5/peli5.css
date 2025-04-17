@@ -44,3 +44,6 @@ footer {
 #answer:hover{
     background-color: #f1d0f8;
 }
+.hidden{
+    display:none;
+}

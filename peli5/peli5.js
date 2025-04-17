@@ -29,7 +29,7 @@ function answer (event){
     document.querySelector('#result').textContent =
         'You have now ' + points + '/' + questions.length + ' points';
 
-// Seuraavaan kysymyksen vaihto ja pieni viive ettei kaikki ny liian nopeesti tapahu.
+// Seuraavaan kysymyksen vaihto ja pieni viive ettei kaikki nyt liian nopeesti tapahu.
         index++;
 
         setTimeout(nextQuestion,1000);
