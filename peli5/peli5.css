@@ -1,0 +1,39 @@
+body {
+    margin-left: 16px;
+    
+}
+
+header {
+    background-color: #F3B3FF ;
+    padding-top: 40px;
+    
+}
+
+nav {
+    background-color: #F3B3FF ;
+
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 1.2em !important;
+    color: black !important;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #F3B3FF ;
+    color: black;
+    font-size: 1.2em !important
+}
+
+
+.container {
+    padding-top: 1.2rem;
+    font-size: 1.2em !important;
+}
