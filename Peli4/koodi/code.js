@@ -27,6 +27,11 @@ form.addEventListener("submit", answer);
 function answer(event) {
     event.preventDefault();
 
+    if (!answer1Radio.checked && !answer2Radio.checked) {
+        alert("Valitse jompikumpi vastaus.");
+        return;
+    }
+
     let selected;
     if (answer1Radio.checked) {
         selected = answer1Radio.value;

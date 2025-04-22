@@ -1,5 +1,16 @@
-button{
-    padding: 2em;
-    
+.container{
+    font-weight:500 !important;
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
 }
-    
+
+h4{
+    margin: 3em !important;
+}
+
+
+button{
+    margin:2em !important;
+    border-radius: 10px !important;
+    font-weight:500 !important;
+    background-color: #FFb3b9 !important;
+} 
