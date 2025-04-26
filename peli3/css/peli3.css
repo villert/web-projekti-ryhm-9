@@ -38,3 +38,18 @@ footer {
     padding-top: 20rem;
     font-size: 1.2em !important;
 }
+
+.quiz-button {
+    margin: 0.5rem;
+    padding:0.5rem 1rem;
+    background-color: #F3B3FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.quiz-button:hover {
+    background-color: #f1d0f8;
+}
