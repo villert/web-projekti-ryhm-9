@@ -69,7 +69,7 @@ function checkanswer(choice) {
     var resultDiv = document.getElementById("result");
 
     if (choice == questions[index].answer){
-        points++;
+        localStorage.setItem('game3Score', ++points);
         resultDiv.innerHTML = "<p class='text-success'>Correct!</p>";
     } else {
         resultDiv.innerHTML = "<p class='text-danger'>Incorrect!</p>";
