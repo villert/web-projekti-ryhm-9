@@ -20,7 +20,7 @@ function answer (event){
     let selection = formdata.get('selection');
 
     if(selection == answers[index]){
-        localStorage.setItem('game5score',points++);
+        localStorage.setItem('game5Score', ++points);
         questionElement.classList.add('correct');
     }else{
         questionElement.classList.add('incorrect');
