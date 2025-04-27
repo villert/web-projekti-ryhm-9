@@ -13,6 +13,7 @@ let answers = [
 ];
 
 let index = 0;
+localStorage.setItem('game4Score', 0);
 let points = parseInt(localStorage.getItem('game4Score')) || 0;
 
 //Haetaan HTML elementit 
