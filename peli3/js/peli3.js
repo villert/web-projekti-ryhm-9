@@ -60,7 +60,7 @@ function showQuestion() {
     } else {
         document.getElementById("quiz").innerHTML = "";
         document.getElementById("result").innerHTML = `<h3>You scored ${points} out of ${questions.length}!</h3>`;
-        localStorage.setItem("quizPoints", points);
+        localStorage.setItem("game3score", points);
     }
 }
 
