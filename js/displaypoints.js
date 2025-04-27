@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let game3 = localStorage.getItem("game3Score") || "0"; 
     let game4 = localStorage.getItem("game4Score") || "0"; 
     let game5 = localStorage.getItem("game5Score") || "0"; 
+    let game6 = localStorage.getItem("game6Score") || "0"; 
 
     // Etsitään score elementti pisteet.html:stä ja laitetaan siihen pisteet
     document.getElementById("game1-score").textContent = `Pisteet: ${game1}`;
@@ -13,4 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("game3-score").textContent = `Pisteet: ${game3}`;
     document.getElementById("game4-score").textContent = `Pisteet: ${game4}`;
     document.getElementById("game5-score").textContent = `Pisteet: ${game5}`;
+    document.getElementById("game6-score").textContent = `Pisteet: ${game6}`;
 });
