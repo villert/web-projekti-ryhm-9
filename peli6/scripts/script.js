@@ -9,6 +9,9 @@ let points = parseInt(localStorage.getItem('game6Score')) || 0;
 let currentWord, correctLetters, wrongGuesscount;
 const maxGuesses = 6;
 
+
+
+/*Koodi jolla resetetaan peli WOW! */
 const resetGame = () => {
     correctLetters = [];
     wrongGuesscount = 0;
@@ -29,7 +32,7 @@ const getRandomWord = () => {
     resetGame();
 
 }
-
+/*Voitto scriin ja +1 piste oikeasta sanasta pisteet osioon!*/
 const gameOver = (isVictory) => {
     setTimeout(() => {
         const modalText = isVictory ? `You found the word:` : `The correct word was:`;
@@ -43,7 +46,7 @@ const gameOver = (isVictory) => {
         }
     }, 300);
 }
-
+/*Letterin clikkaus ja sen confirmointi*/
 const initGame  = (button, clickedLetter) => {
     if(currentWord.includes(clickedLetter)) {
         [...currentWord].forEach((letter, index) => {
