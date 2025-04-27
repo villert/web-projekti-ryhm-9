@@ -13,7 +13,7 @@ let answers = [
 ];
 
 let index = 0;
-let points = parseInt(localStorage.getItem('points')) || 0;
+let points = parseInt(localStorage.getItem('game4Score')) || 0;
 
 //Haetaan HTML elementit 
 let form = document.querySelector("#questionform");
@@ -49,10 +49,10 @@ function answer(event) {
     // Tarkistetaan, oliko vastaus oikein
     if (selected === currentCorrect) {
     // Jos vastaus on oikein, lisätään pisteitä
-        points++;
+        localStorage.setItem('game4Score', points++);
     }
     // Tallennetaan pisteet localstorageen
-    localStorage.setItem('points', points);
+    localStorage.setItem('game4Score', points);
 
     //Seuraava kysymys
     index++;
@@ -64,7 +64,7 @@ function answer(event) {
 function nextQuestion() {
     if (index >= answers.length) {
         alert("Peli loppui! Pisteesi: " + points + " / " + answers.length);
-        localStorage.removeItem('points');
+
     //Estää pelaajan toiminnan  loputtua 
         answer1Radio.disabled = true;
         answer2Radio.disabled = true;
