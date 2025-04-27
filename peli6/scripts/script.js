@@ -4,6 +4,7 @@ const guessesText = document.querySelector(".guesses-text b");
 const keyboardDiv = document.querySelector(".keyboard");
 const gameModal = document.querySelector(".game-modal");
 const playAgainBtn = document.querySelector(".play-again");
+let points = parseInt(localStorage.getItem('game6Score')) || 0;
 
 let currentWord, correctLetters, wrongGuesscount;
 const maxGuesses = 6;
@@ -33,9 +34,13 @@ const gameOver = (isVictory) => {
     setTimeout(() => {
         const modalText = isVictory ? `You found the word:` : `The correct word was:`;
         gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
-        gameModal.querySelector("h4").innerText = `${isVictory ? 'Congrats!' : 'Game Over!'}`;
+        gameModal.querySelector("h4").innerText = `${isVictory ? 'Congrats! +1 piste' : 'Game Over!'}`;
         gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`;
         gameModal.classList.add("show");
+
+        if (isVictory) {
+            localStorage.setItem('game6Score', ++points);
+        }
     }, 300);
 }
 
