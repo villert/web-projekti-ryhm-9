@@ -64,7 +64,7 @@ function answer(event) {
 function nextQuestion() {
     if (index >= answers.length) {
         alert("Peli loppui! Pisteesi: " + points + " / " + answers.length);
-        localStorage.removeItem('points');
+
     //Estää pelaajan toiminnan  loputtua 
         answer1Radio.disabled = true;
         answer2Radio.disabled = true;
