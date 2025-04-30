@@ -1,4 +1,4 @@
-Yleiskuvaus projektista, mitä sillä tehdään ja miten sitä voi käyttää
+Yksinkertaisia pelejä englannin opetteluun
 
 sisuteppo - Sisu Teppo
 villert - ville raijas
